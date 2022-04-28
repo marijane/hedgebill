@@ -21,20 +21,17 @@ All that said, I am not a professional software developer so these goals may be 
 
 At present, Hedgebill can read lists of MeSH terms and keywords from a series of text files organized by single search topic, build a formatted hedge for each, and combine them in a variety of ways to produce search results with a range of recall/precision/sensitivity/specificity, and then retrieves those results from PubMed via the Entrez API. It makes very short work of exploring lots of different ways to build a search.
 
-## Why did I build this thing?
-
-In March 2020, my colleagues and I at the OHSU Library spent our first month or so of the pandemic intensely focused on conducting searches on COVID-19 for the staff of the Oregon Health Authority. I became extremely frustrated at the lack of good ways to document and save searches in a reproducible way. Before I became a librarian, I spent nearly two decades in the software industry as a tester, technical writer/editor, and semantic modeler, and I yearned for a structured query language like SQL or SPARQL that could be used to build and document literature searches. Lacking that, I thought about ways to make building search hedges easier and collaboratively editable. My first attempt to build this tool was in Google Sheets with Google App Script, but I didn't have the time to dedicate to making it work correctly. Two years later, I find myself working on a complex and expansive search to find as many papers on a particular broad topic, so I revived the idea in this new, far more flexible form.
-
 ## Why is this thing called Hedgebill?
 
 Expert literature searchers have used the term "hedge" to refer to search strategies saved for later reuse since at least the late 1970s (Campbell, 2016). When used as a verb, The OED indicates [hedge](https://www.google.com/search?q=define%3Ahedge) can mean 'limit or qualify (something) by conditions or exceptions', such as 'hedging a bet', which seems appropriate to the context of building quality search strategies for literature reviews by carefully selecting the terms to include in the search hedges.
 
-A [hedgebill](https://en.wiktionary.org/wiki/hedgebill) ([photo]
-(https://museum.wales/collections/online/object/fc64749b-944e-3a1a-ad82-812d2702c8b3/Hedge-bill/?field0=string&value0=hedge%20bill&field1=database&value1=mwl&index=1))is a [long-handled](https://www.thefreedictionary.com/Hedge+bill) [billhook](https://en.wikipedia.org/wiki/Billhook) used by a [hedger](https://en.wiktionary.org/wiki/hedger) to build and maintain hedges. 
+A [hedgebill](https://en.wiktionary.org/wiki/hedgebill) ([photo](https://museum.wales/collections/online/object/fc64749b-944e-3a1a-ad82-812d2702c8b3/Hedge-bill/?field0=string&value0=hedge%20bill&field1=database&value1=mwl&index=1)) is a [long-handled](https://www.thefreedictionary.com/Hedge+bill) [billhook](https://www.merriam-webster.com/dictionary/billhook) used by a [hedger](https://en.wiktionary.org/wiki/hedger) to build and maintain [hedges](https://www.merriam-webster.com/dictionary/hedge) and [hedgerows](https://www.merriam-webster.com/dictionary/hedgerow). "Bill" also brings to mind such things as a [bill of lading](https://www.merriam-webster.com/dictionary/bill%20of%20lading) or a [bill of health](https://www.merriam-webster.com/dictionary/bill%20of%20health).
 
-"Bill" also brings to mind such things as a bill of lading or a bill of health.
+Given the above history and definitions, **Hedgebill** is a tool used to build, maintain, and document search hedges, which are expressed as bills of lading (i.e. a list of things in a given hedge), and which could perhaps also be thought of as bills of health since systematic literature searching and reviews tend to be focused on biomedical questions.
 
-As such, Hedgebill is a tool used to build and maintain search hedges, which are expressed as bills of lading (i.e. a list of things in a given hedge), and which could perhaps also be thought of as bills of health since systematic literature searching and reviews tend to be focused on biomedical questions. 
+## Why did I build this thing?
+
+In March 2020, my colleagues and I at the OHSU Library spent our first month or so of the pandemic intensely focused on conducting searches on COVID-19 for the staff of the Oregon Health Authority. I became extremely frustrated at the lack of good ways to document and save searches in a reproducible way. Before I became a librarian, I spent nearly two decades in the software industry as a tester, technical writer/editor, and semantic modeler, and I yearned for a structured query language like SQL or SPARQL that could be used to build and document literature searches. Lacking that, I thought about ways to make building search hedges easier and collaboratively editable. My first attempt to build this tool was in Google Sheets with Google App Script, but I didn't have the time to dedicate to making it work correctly. Two years later, I find myself working on a complex and expansive search to find as many papers on a particular broad topic, so I revived the idea in this new, far more flexible form.
 
 ## References
 
